@@ -1,4 +1,4 @@
-name: 'Github Rubocop Action'
+name: 'Rubocop Action'
 description: 'Runs rubocop'
 author: 'Alex Kutuzaki'
 branding:
