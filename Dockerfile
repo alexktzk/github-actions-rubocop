@@ -6,7 +6,7 @@ LABEL com.github.actions.description="Lint your Ruby code in parallel to your bu
 LABEL com.github.actions.icon="code"
 LABEL com.github.actions.color="red"
 
-LABEL maintainer="Luiz Fonseca <luiz@lytt.co>"
+LABEL maintainer="Alex Kutuzaki <alexktzk@gmail.com>"
 
 COPY lib /action/lib
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
