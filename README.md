@@ -9,8 +9,11 @@ Lint your Ruby code in parallel to your builds.
 
 ## How it works
 
-- Ruby 2.6.3
-- Rubocop + Rubocop Performance
+- ruby 2.7.1 
+- rubocop 1.3.0 
+- rubocop-rails 2.8.1 
+- rubocop-rspec 2.0.0 
+- rubocop-performance 1.8.1 
 
 
 ![](screenshots/annotations.png)
@@ -34,7 +37,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Rubocop checks
-        uses: luizfonseca/github-actions-rubocop@1.5.5
+        uses: alexktzk/github-actions-rubocop@1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
