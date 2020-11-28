@@ -1,6 +1,6 @@
 name: 'Github Rubocop Action'
-description: 'Runs rubocop on your PRs :)'
-author: 'Luiz Fonseca'
+description: 'Runs rubocop'
+author: 'Alex Kutuzaki'
 branding:
   icon: 'alert-triangle'
   color: 'red'
